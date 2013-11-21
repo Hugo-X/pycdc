@@ -14,7 +14,15 @@ If you wish to contribute, please fork us on github at
 https://github.com/zrax/pycdc
 
 ## Usage
-To compile Decompyle++, just run `make`.
+
+**To compile Decompyle++**
+
+Linux:  
+  Just run `make`.
+  
+Windows:
+  1. `python bytes/comp_map.py` to generate python_xx.cpp files
+  2. open `pycdc.sln` with Visual Studio (2008 or later) and build
 
 **To run pycdas**, the PYC Disassembler:
 `./bin/pycdas [PATH TO PYC FILE]`
